@@ -1,26 +1,45 @@
 # React_withAT
 
-Welcome to React_Learning_AT! 🚀
-
-This repository is dedicated to learning React, filled with documentation, code examples, projects, and more. Whether you're a beginner or looking to deepen your React knowledge, you'll find valuable resources here.
-
-## Getting Started
-
-1. Clone this repository: `git clone https://github.com/your-username/React_Learning_AT.git`
-2. Navigate to the project directory: `cd React_Learning_AT`
-3. Explore the folders to find documentation, code examples, projects, and exercises.
+My personal React learning notes: concept docs, a cheat sheet, interview-style revision notes, hook snippets and two small practice projects.
 
 ## Contents
 
-- **docs/:** Comprehensive documentation on React concepts.
-- **code-examples/:** Simple React code snippets for learning.
+### Docs
 
-## Contributing
+| File | What's inside |
+| --- | --- |
+| [docs/ReactConcept.md](docs/ReactConcept.md) | 20 core topics with examples: components, JSX, state and props, lifecycle methods, hooks, React Router, Redux, forms, Context API, HOCs, error boundaries, portals, Suspense/lazy loading, testing, Next.js SSR, render props, WebSockets, GraphQL with Apollo |
+| [docs/ReactHooks.md](docs/ReactHooks.md) | Built-in hooks with examples (`useContext`, `useState`, `useEffect`, `useReducer`, `useMemo`, `useCallback`, `useImperativeHandle`, `useDebugValue`, `useRef`, `useLayoutEffect`) and custom hooks |
 
-If you'd like to contribute to this project, please check the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
+### Cheat sheets
 
-## License
+| File | What's inside |
+| --- | --- |
+| [cheat-sheet/ReactCheatSheet.md](cheat-sheet/ReactCheatSheet.md) | Long-form cheat sheet: components, state and events, forms and validation, `useRef`, lists and conditional rendering, styling (inline, styled-components, CSS Modules), fragments/portals/refs, `useEffect`, `useReducer`, Context API, and more |
+| [cheat-sheet/React_Revision.md](cheat-sheet/React_Revision.md) | Q&A revision notes: what React is and its key features; class vs. functional components |
 
-This project is licensed under the [MIT License](LICENSE.md).
+### Code examples
 
-Happy coding! 👩‍💻👨‍💻
+Standalone component snippets (not a runnable app):
+
+- [code-examples/useState.js](code-examples/useState.js) – counter
+- [code-examples/useEffect.js](code-examples/useEffect.js) – data fetching with loading and error states
+- [code-examples/useContext.js](code-examples/useContext.js) – theme toggle with Context
+
+### Mini projects
+
+| Project | Stack | Run |
+| --- | --- | --- |
+| [react-projects/reduxTodo-project2](react-projects/reduxTodo-project2) | Vite, React 18, Redux Toolkit (`createSlice`), Tailwind CSS. Add and remove todos. | `npm install && npm run dev` |
+| [react-projects/usememo-optimization-project1](react-projects/usememo-optimization-project1) | Create React App. Memoization experiments (a hand-written memoized function plus small components). | `npm install && npm start` |
+
+Run the commands inside each project folder.
+
+## Getting started
+
+```bash
+git clone https://github.com/AkshayTripathiAI/React_withAT.git
+cd React_withAT
+```
+
+The notes are plain Markdown and read fine on GitHub; only the projects under `react-projects/` need Node.js and npm.
